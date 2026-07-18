@@ -25,7 +25,7 @@ jobs:
         rm -rf template/app/src/main/assets/*
         cp -r html-src/* template/app/src/main/assets/ || true
         rm -rf template/app/src/main/assets/template
-        rm -rf template/app/src/main/assets/html-src
+        rm -rf template/app/src/main/assets/html-apk
 
     - name: Build APK
       run: |
